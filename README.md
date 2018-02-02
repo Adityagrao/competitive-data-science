@@ -42,22 +42,48 @@
 - [How to Retrain Inception's Final Layer for New Categories in Tensorflow](https://www.tensorflow.org/tutorials/image_retraining)
 - [Fine-tuning Deep Learning Models in Keras](https://flyyufelix.github.io/2016/10/08/fine-tuning-in-keras-part2.html)
 
+## Exploratory data analysis
+- [Biclustering algorithms for sorting corrplots](http://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html)
 
+## Validation
+- [Validation in Sklearn](http://scikit-learn.org/stable/modules/cross_validation.html)
+- [Advices on validation in a competition](http://www.chioka.in/how-to-select-your-final-models-in-a-kaggle-competitio/)
 
+## Data leakage
+- [Perfect score script by Oleg Trott](https://www.kaggle.com/olegtrott/the-perfect-score-script) - used to probe leaderboard
+- [Page about data leakages on Kaggle](https://www.kaggle.com/wiki/Leakage)
 
-### Matrix Factorization:
+## Metrics optimization
+#### Classification
+- [Evaluation Metrics for Classification Problems: Quick Examples + References](http://queirozf.com/entries/evaluation-metrics-for-classification-quick-examples-references)
+- [Decision Trees: “Gini” vs. “Entropy” criteria](https://www.garysieling.com/blog/sklearn-gini-vs-entropy-criteria)
+- [Understanding ROC curves](http://www.navan.name/roc/)
+#### Ranking
+- [Learning to Rank using Gradient Descent](http://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf) - original paper about pairwise method for AUC optimization
+- [Overview of further developments of RankNet](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf)
+- [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/) (implemtations for the 2 papers from above)
+- [Learning to Rank Overview](https://wellecks.wordpress.com/2015/01/15/learning-to-rank-overview)
+#### Clustering
+- [Evaluation metrics for clustering](http://nlp.uned.es/docs/amigo2007a.pdf)
 
+## Hyperparameter tuning
+- [Tuning the hyper-parameters of an estimator (sklearn)](http://scikit-learn.org/stable/modules/grid_search.html)
+- [Optimizing hyperparameters with hyperopt](http://fastml.com/optimizing-hyperparams-with-hyperopt/)
+- [Complete Guide to Parameter Tuning in Gradient Boosting (GBM) in Python](https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/)
+
+## Tips and tricks
+- [Far0n's framework for Kaggle competitions "kaggletils"](https://github.com/Far0n/kaggletils)
+- [https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+
+## Advanced features
+#### Matrix Factorization:
 - [Overview of Matrix Decomposition methods (sklearn)](http://scikit-learn.org/stable/modules/decomposition.html)
-
-### t-SNE:
-
+#### t-SNE:
 - [Multicore t-SNE implementation](https://github.com/DmitryUlyanov/Multicore-TSNE)
 - [Comparison of Manifold Learning methods (sklearn)](http://scikit-learn.org/stable/auto_examples/manifold/plot_compare_methods.html)
 - [How to Use t-SNE Effectively (distill.pub blog)](https://distill.pub/2016/misread-tsne/)
 - [tSNE homepage (Laurens van der Maaten)](https://lvdmaaten.github.io/tsne/)
 - [Example: tSNE with different perplexities (sklearn)](http://scikit-learn.org/stable/auto_examples/manifold/plot_t_sne_perplexity.html#sphx-glr-auto-examples-manifold-plot-t-sne-perplexity-py)
-
-### Interactions:
-
+#### Interactions:
 - [Facebook Research's paper about extracting categorical features from trees](https://research.fb.com/publications/practical-lessons-from-predicting-clicks-on-ads-at-facebook/)
 - [Example: Feature transformations with ensembles of trees (sklearn)](http://scikit-learn.org/stable/auto_examples/ensemble/plot_feature_transformation.html)
