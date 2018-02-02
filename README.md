@@ -26,9 +26,7 @@
 - [Text Classification With Word2Vec](http://nadbordrozd.github.io/blog/2016/05/20/text-classification-with-word2vec/)
 - [Introduction to Word Embedding Models with Word2Vec](https://taylorwhitten.github.io/blog/word2vec)
 #### NLP Libraties
-- [NLTK](http://www.nltk.org/)
-- [spaCy](https://spacy.io/)
-- [TextBlob](https://github.com/sloria/TextBlob)
+- [NLTK](http://www.nltk.org/), [spaCy](https://spacy.io/), [TextBlob](https://github.com/sloria/TextBlob)
 #### Pretrained models
 - [Using pretrained models in Keras](https://keras.io/applications/)
 - [Image classification with a pre-trained deep neural network](https://www.kernix.com/blog/image-classification-with-a-pre-trained-deep-neural-network_p11)
