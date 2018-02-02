@@ -5,12 +5,6 @@
 #### Additional Tools
 - [Example from sklearn with different decision surfaces](http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html)
 - [Arbitrary order factorization machines](https://github.com/geffy/tffm)
-
-## Software/Hardware requirements
-#### AWS spot option:
-- [Overview of Spot mechanism](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html)
-- [http://www.datasciencebowl.com/aws_guide/](http://www.datasciencebowl.com/aws_guide/)
-#### Stack and packages:
 - [Blog "datas-frame" (contains posts about effective Pandas usage)](https://tomaugspurger.github.io/)
 
 ## Feature preprocessing and generation with respect to models
